@@ -4,7 +4,7 @@ import logoDark from '../../assets/img/Logo-dark.svg'
 import logoLight from '../../assets/img/Logo-light.svg'
 import { useTranslation } from 'react-i18next'
 import { FaRegMoon } from 'react-icons/fa'
-import { FiSun } from 'react-icons/fi'
+import { FiSun } from 'react-icons/fi' 
 import { PortfolioContext } from '../../context/Context'
 import Select from '../select/Select'
 

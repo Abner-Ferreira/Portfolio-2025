@@ -1,5 +1,4 @@
 import styled from 'styled-components'
-import { IoMenuOutline, IoCloseOutline } from 'react-icons/io5'
 
 export const ContainerMenu = styled.header`
   background-color: ${({ theme }) => theme.background};
@@ -19,6 +18,11 @@ export const LinkHeader = styled.a`
   &:hover {
     color: ${({ theme }) => theme.hover};
   }
+
+  /* 4K e acima */
+  @media (min-width: 1920px) {
+    font-size: 16px;
+  }
 `
 export const IconTheme = styled.p`
   text-decoration: none;
@@ -29,13 +33,18 @@ export const IconTheme = styled.p`
   &:hover {
     color: ${({ theme }) => theme.hover};
   }
+
+  /* 4K e acima */
+  @media (min-width: 1920px) {
+    font-size: 18px;
+  }
 `
 
 export const Logo = styled.img`
   display: none;
 
-   /* Tablets (retrato) */
-   @media (500px <= width <= 850px) {
+  /* Tablets (retrato) */
+  @media (500px <= width <= 850px) {
     display: block;
     width: 10%;
   }
@@ -44,5 +53,11 @@ export const Logo = styled.img`
   @media (851px <= width <= 1080px) {
     display: block;
     width: 8%;
+  }
+
+  /* 4K e acima */
+  @media (min-width: 1920px) {
+    display: block;
+    width: 6%;
   }
 `
