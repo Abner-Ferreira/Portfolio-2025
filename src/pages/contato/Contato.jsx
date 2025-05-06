@@ -50,15 +50,40 @@ export default function Contato() {
               +55 11 99480-56211
             </TextoContato>
           </Contatos>
-          <FormularioContainer  onSubmit={(e) => sendEmail(e, formRef)} ref={formRef}>
-            <TextoFormulario>{t('contactFormText')}</TextoFormulario>
-            <Input placeholder={t('contactFormEmail')} type='email' name="email" required/>
-            <Input placeholder={t('contactFormName')} type='text' name="name" required/>
-            <Input placeholder={t('contactFormEnterprise')} type='text' name="enterprise" required/>
-            <Mensagem placeholder={t('contactFormMenssage')} name="message" required/>
-            <Input type='submit' value={t('contactFormSubmit')} />
-          </FormularioContainer>
         </ContatosContainer>
+        <FormularioContainer
+          onSubmit={e => sendEmail(e, formRef)}
+          ref={formRef}
+        >
+          <TextoFormulario>{t('contactFormText')}</TextoFormulario>
+          <Input
+            placeholder={t('contactFormEmail')}
+            type='email'
+            name='email'
+            required
+          />
+          <Input
+            placeholder={t('contactFormName')}
+            type='text'
+            name='name'
+            autoCapitalize='on'
+            required
+          />
+          <Input
+            placeholder={t('contactFormEnterprise')}
+            type='text'
+            name='enterprise'
+            autoCapitalize='on'
+            required
+          />
+          <Mensagem
+            placeholder={t('contactFormMenssage')}
+            name='message'
+            autoCapitalize='on'
+            required
+          />
+          <Input type='submit' value={t('contactFormSubmit')} />
+        </FormularioContainer>
       </Container>
     </>
   )
