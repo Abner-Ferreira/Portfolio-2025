@@ -11,6 +11,10 @@ export const Btn = styled.button`
   align-items: center;
   justify-content: center;
 
+  &:hover {
+    background-color: ${({ theme }) => theme.hover};
+  }
+
   /* 4K e acima */
   @media (min-width: 1920px) {
     align-self: self-start;
