@@ -14,6 +14,12 @@ export const Container = styled.main`
     flex-direction: row;
     justify-content: space-evenly;
   }
+
+  /* 4K e acima */
+  @media (min-width: 1920px) {
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
 `
 
 export const Imagem = styled.img`
@@ -31,6 +37,12 @@ export const Imagem = styled.img`
   @media (851px <= width <= 1080px) {
     margin-top: 0px;
     width: 30%;
+  }
+
+  /* 4K e acima */
+  @media (min-width: 1920px) {
+    width: 25%;
+    margin-top: 0;
   }
 `
 
@@ -55,6 +67,12 @@ export const ContainerWrapper = styled.div`
     align-items: flex-start;
     justify-content: flex-start;
   }
+
+  /* 4K e acima */
+  @media (min-width: 1920px) {
+    width: 50%;
+    height: 55%;
+  }
 `
 
 export const Titulo = styled.h1`
@@ -74,6 +92,13 @@ export const Titulo = styled.h1`
     margin: 0px 0 40px 0;
     font-size: 32px;
   }
+
+  /* 4K e acima */
+  @media (min-width: 1920px) {
+    width: 100%;
+    font-size: 40px;
+    margin: 0 0 60px 0;
+  }
 `
 export const Texto = styled.p`
   color: ${({ theme }) => theme.secundaryText};
@@ -90,6 +115,13 @@ export const Texto = styled.p`
   @media (851px <= width <= 1080px) {
     font-size: 18px;
     width: 100%;
+  }
+
+  /* 4K e acima */
+  @media (min-width: 1920px) {
+    font-size: 18px;
+    width: 80%;
+    align-self: start;
   }
 `
 export const ContainerTexto = styled.div`
@@ -112,6 +144,13 @@ export const ContainerTexto = styled.div`
   @media (851px <= width <= 1080px) {
     margin: 30px 0 20px 0;
   }
+
+  /* 4K e acima */
+  @media (min-width: 1920px) {
+    width: 100%;
+    height: 40%;
+    margin: 40px 0 60px 0;
+  }
 `
 
 export const Destaque = styled.span`
@@ -128,6 +167,12 @@ export const Destaque = styled.span`
     font-size: 20px;
     margin: 5px 10px 0 0;
   }
+
+  /* 4K e acima */
+  @media (min-width: 1920px) {
+    font-size: 20px;
+    margin: 5px 15px 0 0;
+  }
 `
 
 const textoSecundarioStyles = css`
@@ -141,6 +186,12 @@ const textoSecundarioStyles = css`
   }
 
   @media (851px <= width <= 1080px) {
+    font-size: 18px;
+    margin: 5px 0;
+  }
+
+  /* 4K e acima */
+  @media (min-width: 1920px) {
     font-size: 18px;
     margin: 5px 0;
   }
