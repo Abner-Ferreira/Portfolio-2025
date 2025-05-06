@@ -18,6 +18,11 @@ export const Container = styled.main`
   @media (851px <= width <= 1080px) {
     height: 95vh;
   }
+
+  /* 4K e acima */
+  @media (min-width: 1920px) {
+    height: 100vh;
+  }
 `
 
 export const Titulo = styled.h1`
@@ -33,6 +38,11 @@ export const Titulo = styled.h1`
   /* Tablets (paisagem) */
   @media (851px <= width <= 1080px) {
     font-size: 68px;
+  }
+
+  /* 4K e acima */
+  @media (min-width: 1920px) {
+    font-size: 72px;
   }
 `
 
@@ -51,6 +61,11 @@ export const TypewriterWrapper = styled.div`
   @media (851px <= width <= 1080px) {
     font-size: 36px;
   }
+
+  /* 4K e acima */
+  @media (min-width: 1920px) {
+    font-size: 38px;
+  }
 `
 export const StyledCursor = styled.span`
   font-size: 28px;
@@ -65,6 +80,11 @@ export const StyledCursor = styled.span`
   /* Tablets (paisagem) */
   @media (851px <= width <= 1080px) {
     font-size: 42px;
+  }
+
+  /* 4K e acima */
+  @media (min-width: 1920px) {
+    font-size: 44px;
   }
 
   @keyframes blink {
