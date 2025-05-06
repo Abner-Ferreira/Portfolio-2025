@@ -12,6 +12,7 @@ export const getProjects = () => [
     name: 'Easy Bank',
     description: i18n.t('easyBankDescription'),
     img: easybank,
+    titleAccessibility: i18n.t('projectComplete'),
     status: [
       { name: 'complete', title: i18n.t('portfolioComplete') },
       { name: 'personal', title: i18n.t('portfolioPersonal') },
@@ -23,6 +24,7 @@ export const getProjects = () => [
     name: 'Advice Generator',
     description: i18n.t('adviceDescription'),
     img: adviceGenerator,
+    titleAccessibility: i18n.t('projectComplete'),
     status: [
       { name: 'complete', title: i18n.t('portfolioComplete') },
       { name: 'personal', title: i18n.t('portfolioPersonal') },
@@ -34,6 +36,7 @@ export const getProjects = () => [
     name: 'Tip Calculator',
     description: i18n.t('tipCalculatorDescription'),
     img: tipCalculator,
+    titleAccessibility: i18n.t('projectComplete'),
     status: [
       { name: 'complete', title: i18n.t('portfolioComplete') },
       { name: 'personal', title: i18n.t('portfolioPersonal') },
@@ -45,6 +48,7 @@ export const getProjects = () => [
     name: 'Cinetag',
     description: i18n.t('cinetagDescription'),
     img: cinetag,
+    titleAccessibility: i18n.t('projectComplete'),
     status: [
       { name: 'complete', title: i18n.t('portfolioComplete') },
       { name: 'study', title: i18n.t('portfolioStudy') },
@@ -56,6 +60,7 @@ export const getProjects = () => [
     name: 'Product page',
     description: i18n.t('productPageDescription'),
     img: productPage,
+    titleAccessibility: i18n.t('projectComplete'),
     status: [
       { name: 'complete', title: i18n.t('portfolioComplete') },
       { name: 'personal', title: i18n.t('portfolioPersonal') },
@@ -67,6 +72,7 @@ export const getProjects = () => [
     name: 'Pokedex',
     description: i18n.t('pokedexDescription'),
     img: pokedex,
+    titleAccessibility: i18n.t('projectComplete'),
     status: [
       { name: 'complete', title: i18n.t('portfolioComplete') },
       { name: 'study', title: i18n.t('portfolioStudy') },
@@ -78,6 +84,7 @@ export const getProjects = () => [
     name: 'Login Instagram',
     description: i18n.t('loginInstagramDescription'),
     img: instagram,
+    titleAccessibility: i18n.t('projectComplete'),
     status: [
       { name: 'complete', title: i18n.t('portfolioComplete') },
       { name: 'personal', title: i18n.t('portfolioPersonal') },
