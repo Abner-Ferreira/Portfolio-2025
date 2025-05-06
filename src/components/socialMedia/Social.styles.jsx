@@ -19,6 +19,11 @@ export const SocialMediaContainer = styled.div`
     width: 70%;
     margin: 100px 0;
   }
+
+  /* 4K e acima */
+  @media (min-width: 1920px) {
+    width: 50%;
+  }
 `
 
 export const CircleSocial = styled.a`
