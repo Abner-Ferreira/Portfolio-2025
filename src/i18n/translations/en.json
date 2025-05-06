@@ -9,7 +9,7 @@
     "habilities2": "React JS",
     "habilities3": "Next JS",
     "aboutTitle": "About Me",
-    "about": "Work as a Front-end Developer, contributing to the development of modern, high-performance, and user-centered interfaces, while adding value through automations and creative solutions.",
+    "about": "I'm a frontend developer focused on modern, accessible, and responsive interfaces. I work with React, Next.js, and Tailwind, combining tech and design to build intuitive digital experiences. In my free time, I enjoy to play video-games, learning animations, listening to music, and exploring minimalist design.",
     "nameAbout": "Name",
     "yearAbout": "Year",
     "locAbout": "Localization",
@@ -26,16 +26,21 @@
     "contactFormMenssage": "Menssage",
     "contactFormSubmit": "Submit",
     "portfolioComplete": "Complete",
+    "projectComplete": "Complete project",
     "portfolioPersonal": "Personal",
+    "projectPersonal": "Personal project",
     "portfolioOnGoing": "On Going",
+    "projectOnGoing": "Ongoing project",
     "portfolioStudy": "Study",
+    "projectStudy": "Study project",
     "portfolioFreelance": "Freelance",
+    "projectFreelance": "Freelance project", 
     "easyBankDescription": "Responsive landing page developed for the fictional bank EasyBank as part of a front-end challenge, built with React and focused on modern design and high performance.",
     "adviceDescription": "Simple and responsive application that generates random pieces of advice, built as a personal project using React and styled-components, with focus on clean design and API integration.",
     "tipCalculatorDescription": "Responsive tip calculator developed as a personal project using React, with emphasis on user-friendly design and accurate real-time calculations.",
     "cinetagDescription": "Study project focused on React fundamentals, Cinetag allows users to explore and categorize movies with dynamic filtering and routing.",
     "productPageDescription": "Responsive product page for an e-commerce layout, developed as a personal project using React and Tailwind CSS, with attention to design consistency and mobile-first approach.",
     "pokedexDescription": "Study project that consumes the PokéAPI to display Pokémon information. Built with React and Axios, featuring pagination and real-time search.",
-    "loginInstagramDescription": "Responsive replica of Instagram’s login screen, created as a personal project using HTML and CSS to practice layout replication and visual fidelity."
+    "loginInstagramDescription": "Responsive replica of Instagram's login screen, created as a personal project using HTML and CSS to practice layout replication and visual fidelity."
   }
 }
