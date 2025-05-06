@@ -4,7 +4,7 @@ import { FaGithub } from 'react-icons/fa'
 
 export const SwiperWrapper = styled.div`
   width: 100%;
-  max-width: 1200px;
+  /* max-width: 1200px; */
   margin: auto;
 
   .swiper {
@@ -14,6 +14,11 @@ export const SwiperWrapper = styled.div`
   .swiper-slide {
     display: flex;
     justify-content: center;
+  }
+
+  /* 4K e acima */
+  @media (min-width: 1920px) {
+    width: 82%;
   }
 `
 
@@ -35,7 +40,7 @@ export const Imagem = styled.img`
   margin-bottom: 20px;
   border-radius: 8px;
   object-fit: cover;
-  border:${({ theme }) => theme.borderImgProject};
+  border: ${({ theme }) => theme.borderImgProject};
 `
 
 export const TituloWrapper = styled.div`

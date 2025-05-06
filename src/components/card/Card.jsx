@@ -1,6 +1,6 @@
 import React from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react'
-import { EffectCoverflow, Pagination } from 'swiper/modules'
+import { EffectCoverflow, Pagination, Autoplay } from 'swiper/modules'
 import 'swiper/css'
 import 'swiper/css/effect-coverflow'
 import 'swiper/css/pagination'
@@ -32,10 +32,15 @@ export default function Card() {
         effect='coverflow'
         grabCursor={true}
         centeredSlides={true}
+        slidesPerView={'auto'} 
         loop={true}
-        slidesPerView='auto'
+        autoplay={{
+          delay: 3000,
+          disableOnInteraction: false,
+          pauseOnMouseEnter: true
+        }}
         pagination={{ clickable: true }}
-        modules={[EffectCoverflow, Pagination]}
+        modules={[EffectCoverflow, Pagination, Autoplay]}
         coverflowEffect={{
           rotate: 30,
           stretch: 0,
@@ -56,7 +61,7 @@ export default function Card() {
               <TituloWrapper>
               <StatusWrapper>
                 {project.status.map((itemStatus, index) => (
-                  <TagStatus status={itemStatus.name} title='Projeto Concluído' key={index}>
+                  <TagStatus status={itemStatus.name} title={project.titleAccessibility} key={index}>
                     {itemStatus.title}
                   </TagStatus>
                 ))}
