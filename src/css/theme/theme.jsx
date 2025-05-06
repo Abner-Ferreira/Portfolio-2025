@@ -28,7 +28,7 @@ export const light = {
   hoverRed: '#8E2525',
   backgroundCard: '#F5F5F5',
   cardBorder: '#2A2A2A',
-  inputColor: '#EBEBEB',
+  inputColor: '#dfdfdf',
   complete: { bg: '#E6F4EA', text: '#26734D' },
   onGoing: { bg: '#FFF4E5', text: '#A06800' },
   study: { bg: '#EAF0FB', text: '#3B6EA9' },
