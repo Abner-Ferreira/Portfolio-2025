@@ -7,7 +7,9 @@ export const ContainerMenu = styled.header`
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  margin-top: 10px;
+  /* margin-top: 10px; */
+  position: fixed;
+  z-index: 9999;
 `
 export const LinkHeader = styled.a`
   text-decoration: none;

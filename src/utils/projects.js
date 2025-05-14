@@ -1,3 +1,4 @@
+import greendrive from '../assets/projects-img/greendrive.png'
 import easybank from '../assets/projects-img/easybank.png'
 import adviceGenerator from '../assets/projects-img/adviceGenerator.png'
 import tipCalculator from '../assets/projects-img/tipCalculator.png'
@@ -8,6 +9,18 @@ import instagram from '../assets/projects-img/instagram.png'
 import i18n from '../i18n' // ajuste o caminho se necessário
 
 export const getProjects = () => [
+  {
+    name: 'GreenDrive',
+    description: i18n.t('easyBankDescription'),
+    img: greendrive,
+    titleAccessibility: i18n.t('projectComplete'),
+    status: [
+      { name: 'complete', title: i18n.t('portfolioComplete') },
+      { name: 'personal', title: i18n.t('portfolioPersonal') },
+    ],
+    github: 'https://github.com/Abner-Ferreira/EasyBank',
+    liveProject: 'https://abner-easy-bank.vercel.app/',
+  },
   {
     name: 'Easy Bank',
     description: i18n.t('easyBankDescription'),

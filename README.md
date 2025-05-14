@@ -1,12 +1,58 @@
-# React + Vite
+# 👨‍💻 Portfolio Abner
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Portfolio Abner** is a personal portfolio website built with **ReactJS** and **Tailwind CSS**, designed to showcase my skills, projects, and professional experience as a frontend developer. The site offers a clean and responsive design, ensuring an optimal viewing experience across various devices.
 
-Currently, two official plugins are available:
+## 📸 Project Preview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![Portfolio Abner Screenshot](./src/assets/portfolio-fullpage.png)  
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Project Overview
+
+The portfolio includes:
+
+- **Home Section**: Introduction and brief overview.
+- **About Section**: Detailed information about my background and skills.
+- **Projects Section**: Showcases selected projects with descriptions and links.
+- **Contact Section**: Provides a contact form and social media links for easy communication.
+
+## 🌟 Features
+
+- 🎯 **Responsive Design**  
+  Ensures seamless experience on mobile, tablet, and desktop devices.
+
+- 🧭 **Smooth Navigation**  
+  Enables easy access to different sections of the portfolio.
+
+- 🧩 **Interactive Components**  
+  Engages visitors with interactive UI elements.
+
+- 🎨 **Clean Aesthetic**  
+  Utilizes Tailwind CSS for a modern and minimalist design.
+
+## 🛠️ Technologies Used
+
+- **ReactJS** – JavaScript library for building user interfaces.
+- **Tailwind CSS** – Utility-first CSS framework for rapid UI development.
+- **React Router** – Handles navigation between different sections.
+- **Vite** – Next-generation frontend build tool for fast development.
+
+## 📚 Learning Objectives
+
+This project was developed to:
+
+- Demonstrate proficiency in ReactJS and Tailwind CSS.
+- Showcase personal projects and professional experience.
+- Practice responsive design and user-friendly UI/UX principles.
+
+## 🌐 Live Demo
+
+Experience the live portfolio here:  
+👉 [portfolio-abner.vercel.app](https://portfolio-abner.vercel.app/#home)
+
+## 📄 License
+
+This project is intended for personal branding and demonstrative purposes.  
+All content and functionalities are original and tailored to represent my professional profile.
+
+---
